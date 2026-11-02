@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyTravelRoute</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+
+    <!-- Navbar -->
+    <nav class="navbar">
+      <!-- Sol: Marka -->
+      <a href="#" class="navbar__brand">MyTravelRoute</a>
+
+      <!-- Orta: Linkler -->
+      <ul class="navbar__links">
+        <li><a href="#">Keşfet</a></li>
+        <li><a href="#">Rotanı Oluştur</a></li>
+        <li><a href="#">Popüler Destinasyonlar</a></li>
+        <li><a href="#">Hakkımızda</a></li>
+      </ul>
+
+      <!-- Sağ: Butonlar -->
+      <div class="navbar__actions">
+        <button class="btn btn--login">Giriş Yap</button>
+        <button class="btn btn--register">Kayıt Ol</button>
+      </div>
+    </nav>
+
+    <!-- Hero İçerik -->
+    <div class="hero__content">
+      <a href="#" class="hero__cta">
+        Rotanı Oluştur <span class="hero__cta-arrow">→</span>
+      </a>
+    </div>
+
+  </section>
+  <!--Navbar Bitiş-->
+
+  <!-- Nasıl Çalışır Bölümü -->
+  <section class="how-it-works">
+    <div class="how-it-works__inner">
+
+      <!-- Sol İçerik -->
+      <div class="how-it-works__left">
+        <h2 class="how-it-works__title">Nasıl Çalışır?</h2>
+
+        <div class="how-it-works__steps">
+          <!-- Adım 1 -->
+          <div class="how-it-works__step">
+            <div class="how-it-works__icon-circle">
+              <img src="images/map-pin.svg" alt="Konum" class="how-it-works__icon">
+            </div>
+            <h3 class="how-it-works__step-title">1. Konumunu seç</h3>
+            <p class="how-it-works__step-desc">Gitmek istediğin ülke veya şehri belirle.</p>
+          </div>
+
+          <!-- Ok 1 -->
+          <div class="how-it-works__arrow-col">
+            <span class="how-it-works__arrow">→</span>
+          </div>
+
+          <!-- Adım 2 -->
+          <div class="how-it-works__step">
+            <div class="how-it-works__icon-circle">
+              <img src="images/map.svg" alt="Keşfet" class="how-it-works__icon">
+            </div>
+            <h3 class="how-it-works__step-title">2. Yerleri keşfet</h3>
+            <p class="how-it-works__step-desc">İlgi alanlarına göre gezilecek yerleri listele.</p>
+          </div>
+
+          <!-- Ok 2 -->
+          <div class="how-it-works__arrow-col">
+            <span class="how-it-works__arrow">→</span>
+          </div>
+
+          <!-- Adım 3 -->
+          <div class="how-it-works__step">
+            <div class="how-it-works__icon-circle">
+              <img src="images/clipboard-check.svg" alt="Rota" class="how-it-works__icon">
+            </div>
+            <h3 class="how-it-works__step-title">3. Rotanı oluştur</h3>
+            <p class="how-it-works__step-desc">Seçtiğin yerlerden kişisel rotanı oluştur.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sağ Görsel -->
+      <div class="how-it-works__right">
+        <img src="images/how-it-works.jpg" alt="Rota haritası" class="how-it-works__image">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Popüler Destinasyonlar Bölümü -->
+  <section class="destinations">
+    <div class="destinations__inner">
+
+      <!-- Üst Başlık & Buton Alanı -->
+      <div class="destinations__header">
+        <div class="destinations__title-group">
+          <h2 class="destinations__title">Popüler Destinasyonlar</h2>
+          <p class="destinations__subtitle">Dünyanın en çok tercih edilen rotalarını keşfet, yeni maceralara ilham al.</p>
+        </div>
+
+        <a href="#" class="destinations__view-all">
+          Tümünü Gör <span class="destinations__view-all-arrow">→</span>
+        </a>
+      </div>
+
+      <!-- Kartlar Listesi -->
+      <div class="destinations__cards">
+        <!-- Kart 1: Gize -->
+        <div class="destination-card">
+          <img src="images/gize.jpg" alt="Gize, Mısır" class="destination-card__image">
+          <div class="destination-card__body">
+            <h3 class="destination-card__city">Gize</h3>
+            <p class="destination-card__country">Mısır</p>
+          </div>
+        </div>
+
+        <!-- Kart 2: Londra -->
+        <div class="destination-card">
+          <img src="images/londra.jpg" alt="Londra, İngiltere" class="destination-card__image">
+          <div class="destination-card__body">
+            <h3 class="destination-card__city">Londra</h3>
+            <p class="destination-card__country">İngiltere</p>
+          </div>
+        </div>
+
+        <!-- Kart 3: Kapadokya -->
+        <div class="destination-card">
+          <img src="images/kapadokya.jpg" alt="Kapadokya, Türkiye" class="destination-card__image">
+          <div class="destination-card__body">
+            <h3 class="destination-card__city">Kapadokya</h3>
+            <p class="destination-card__country">Türkiye</p>
+          </div>
+        </div>
+
+        <!-- Kart 4: Venedik -->
+        <div class="destination-card">
+          <img src="images/venedik.jpg" alt="Venedik, İtalya" class="destination-card__image">
+          <div class="destination-card__body">
+            <h3 class="destination-card__city">Venedik</h3>
+            <p class="destination-card__country">İtalya</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__inner">
+
+      <!-- Üst Kısım -->
+      <div class="footer__top">
+
+        <!-- Sol: Logo & Slogan -->
+        <div class="footer__brand">
+          <div class="footer__brand-row">
+            <div class="footer__compass">
+              <img src="images/compass.svg" alt="Compass" class="footer__compass-icon">
+            </div>
+            <span class="footer__brand-name">MyTravelRoute</span>
+          </div>
+          <p class="footer__brand-desc">Keşfet, planla, yola çık.<br>Dünyayı kendi rotanda keşfet.</p>
+        </div>
+
+        <!-- Orta: Link Sütunları -->
+        <div class="footer__nav">
+          <div class="footer__nav-col">
+            <h4 class="footer__nav-title">SEYAHAT REHBERİ</h4>
+            <a href="#" class="footer__nav-link">Seyahat İpuçları</a>
+            <a href="#" class="footer__nav-link">Gezi Planlama Rehberi</a>
+          </div>
+
+          <div class="footer__nav-col">
+            <h4 class="footer__nav-title">DESTEK</h4>
+            <a href="#" class="footer__nav-link">Sıkça Sorulan Sorular</a>
+            <a href="#" class="footer__nav-link">İletişim</a>
+          </div>
+
+          <div class="footer__nav-col">
+            <h4 class="footer__nav-title">YASAL</h4>
+            <a href="#" class="footer__nav-link">Gizlilik Politikası</a>
+            <a href="#" class="footer__nav-link">Kullanım Koşulları</a>
+          </div>
+        </div>
+
+        <!-- Sağ: Sosyal Medya -->
+        <div class="footer__social">
+          <a href="#" class="footer__social-link" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+          </a>
+          <a href="#" class="footer__social-link" aria-label="YouTube">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><path d="m10 15 5-3-5-3z"/></svg>
+          </a>
+          <a href="#" class="footer__social-link" aria-label="Web">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Ayırıcı Çizgi -->
+      <div class="footer__divider"></div>
+
+      <!-- Alt Kısım -->
+      <div class="footer__bottom">
+        <p class="footer__copyright">© 2026 MyTravelRoute. Tüm hakları saklıdır.</p>
+        <a href="#" class="footer__scroll-top" aria-label="Sayfanın başına dön">
+          <span>↑</span>
+        </a>
+      </div>
+
+    </div>
+  </footer>
+  <!--Footer bitti-->
+<!--navbarı sayfanın scrolluna göre ayarlar-->
+  <script>
+    const navbar = document.querySelector('.navbar');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 80) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+
+    // Scroll to top
+    document.querySelector('.footer__scroll-top').addEventListener('click', (e) => {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
+
+</body>
+</html>
